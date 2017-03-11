@@ -7,7 +7,7 @@
 
 ***
 ### reference
-https://laod.cn/hosts/2017-google-hosts.html
-https://coding.net/u/scaffrey/p/hosts/git
-https://github.com/racaljk/hosts
-https://github.com/sy618/hosts
+* https://laod.cn/hosts/2017-google-hosts.html
+* https://coding.net/u/scaffrey/p/hosts/git
+* https://github.com/racaljk/hosts
+* https://github.com/sy618/hosts

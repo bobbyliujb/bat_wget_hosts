@@ -7,35 +7,36 @@ cd /d "%~dp0"
 :main
 cls
 color 2f
-echo        ¡Ì¡Ì    ¡Ì¡Ì  ¡Ì¡Ì¡Ì      ¡Ì¡Ì¡Ì¡Ì  ¡Ì¡Ì¡Ì¡Ì¡Ì    ¡Ì¡Ì¡Ì¡Ì
-echo          ¡Ì    ¡Ì  ¡Ì      ¡Ì  ¡Ì      ¡Ì  ¡Ì  ¡Ì  ¡Ì  ¡Ì      ¡Ì
-echo          ¡Ì    ¡Ì  ¡Ì      ¡Ì  ¡Ì              ¡Ì      ¡Ì
-echo          ¡Ì¡Ì¡Ì¡Ì  ¡Ì      ¡Ì    ¡Ì¡Ì          ¡Ì        ¡Ì¡Ì
-echo          ¡Ì    ¡Ì  ¡Ì      ¡Ì        ¡Ì        ¡Ì            ¡Ì
-echo          ¡Ì    ¡Ì  ¡Ì      ¡Ì          ¡Ì      ¡Ì              ¡Ì
-echo          ¡Ì    ¡Ì  ¡Ì      ¡Ì  ¡Ì      ¡Ì      ¡Ì      ¡Ì      ¡Ì
-echo        ¡Ì¡Ì    ¡Ì¡Ì  ¡Ì¡Ì¡Ì    ¡Ì¡Ì¡Ì¡Ì      ¡Ì¡Ì¡Ì    ¡Ì¡Ì¡Ì¡Ì
+echo        âˆšâˆš    âˆšâˆš  âˆšâˆšâˆš      âˆšâˆšâˆšâˆš  âˆšâˆšâˆšâˆšâˆš    âˆšâˆšâˆšâˆš
+echo          âˆš    âˆš  âˆš      âˆš  âˆš      âˆš  âˆš  âˆš  âˆš  âˆš      âˆš
+echo          âˆš    âˆš  âˆš      âˆš  âˆš              âˆš      âˆš
+echo          âˆšâˆšâˆšâˆš  âˆš      âˆš    âˆšâˆš          âˆš        âˆšâˆš
+echo          âˆš    âˆš  âˆš      âˆš        âˆš        âˆš            âˆš
+echo          âˆš    âˆš  âˆš      âˆš          âˆš      âˆš              âˆš
+echo          âˆš    âˆš  âˆš      âˆš  âˆš      âˆš      âˆš      âˆš      âˆš
+echo        âˆšâˆš    âˆšâˆš  âˆšâˆšâˆš    âˆšâˆšâˆšâˆš      âˆšâˆšâˆš    âˆšâˆšâˆšâˆš
 echo.-------------------------------------------------------------------------
-echo.ÈçÓÐ360¡¢µçÄÔ¹Ü¼ÒµÈ°²È«Èí¼þÌáÐÑ£¬Çë¹´Ñ¡ÐÅÈÎÔÊÐíºÍ²»ÔÙÌáÐÑ£¡
+echo.å¦‚æœ‰360ã€ç”µè„‘ç®¡å®¶ç­‰å®‰å…¨è½¯ä»¶æé†’ï¼Œè¯·å‹¾é€‰ä¿¡ä»»å…è®¸å’Œä¸å†æé†’ï¼
 echo.
-echo.¾¯¸æ£ºÖ´ÐÐ¸ÃÃüÁî ÄúµÄhosts½«±»×Ô¶¯Ìæ»»¸²¸Ç£¡
-echo.ÈçÄúÔ­ÏÈµÄhostsÓÐ×Ô¼ºÐÞ¸Ä¹ýµÄÖØÒªÐÅÏ¢£¬Çë×ÔÐÐ±¸·Ý£¡
+echo.è­¦å‘Šï¼šæ‰§è¡Œè¯¥å‘½ä»¤ æ‚¨çš„hostså°†è¢«è‡ªåŠ¨æ›¿æ¢è¦†ç›–ï¼
+echo.å¦‚æ‚¨åŽŸå…ˆçš„hostsæœ‰è‡ªå·±ä¿®æ”¹è¿‡çš„é‡è¦ä¿¡æ¯ï¼Œè¯·è‡ªè¡Œå¤‡ä»½ï¼
+echo.2017-09æ›´æ–°ï¼šå¢žå¼º/éœ¸çŽ‹åž‹å·²å¤±æ•ˆï¼Œç”±äºŽå°é”åŠ å¼ºï¼Œä½œè€…å·²åœæ­¢æ›´æ–°ï¼
 color 2e
 echo.-------------------------------------------------------------------------
-echo.¡¾ÇëÊäÈë¶ÔÓ¦Êý×ÖÐòºÅÑ¡ÔñÊ¹ÓÃ¡¿
+echo.ã€è¯·è¾“å…¥å¯¹åº”æ•°å­—åºå·é€‰æ‹©ä½¿ç”¨ã€‘
 echo.
-echo. 1.Ê×´ÎÊ¹ÓÃ/Ê¹ÓÃÆÕÍ¨hosts£¨Google+FB+Gmail...£©
+echo. 1.é¦–æ¬¡ä½¿ç”¨/ä½¿ç”¨æ™®é€šhostsï¼ˆGoogle+FB+Gmail...ï¼‰
 echo.
-echo. 2.Ê¹ÓÃÔöÇ¿hosts£¨Google+FB+Gmail... + Youtube£©
+echo. 2.ä½¿ç”¨å¢žå¼ºhostsï¼ˆGoogle+FB+Gmail... + Youtubeï¼‰
 echo.
-echo. 3.Ê¹ÓÃ°ÔÍõhosts£¨Google+FB+Gmail... + Youtube + GooglePlay£©
+echo. 3.ä½¿ç”¨éœ¸çŽ‹hostsï¼ˆGoogle+FB+Gmail... + Youtube + GooglePlayï¼‰
 echo.
-echo. 4.»Ö¸´Ä¬ÈÏhosts
+echo. 4.æ¢å¤é»˜è®¤hosts
 echo.-------------------------------------------------------------------------
 
 if exist "%SystemRoot%\System32\choice.exe" goto Win7Choice
 
-set /p select=ÇëÊäÈëÊý×Ö²¢°´»Ø³µ¼üÈ·ÈÏ:
+set /p select=è¯·è¾“å…¥æ•°å­—å¹¶æŒ‰å›žè½¦é”®ç¡®è®¤:
 
 echo.
 if %select%==4 goto defaultHost
@@ -43,12 +44,12 @@ if %select%==3 goto replaceHostGYP
 if %select%==2 goto replaceHostGY
 if %select%==1 goto replaceHostG
 cls
-echo ÄúÊäÈëÓÐÎó£¬ÇëÖØÐÂÑ¡Ôñ¡£
+echo æ‚¨è¾“å…¥æœ‰è¯¯ï¼Œè¯·é‡æ–°é€‰æ‹©ã€‚
 ping 127.0.1 -n "2">nul
 goto main
 
 :Win7Choice
-choice /c 1234 /n /m "ÇëÊäÈëÏàÓ¦Êý×Ö£º"
+choice /c 1234 /n /m "è¯·è¾“å…¥ç›¸åº”æ•°å­—ï¼š"
 if errorlevel 4 goto defaultHost
 if errorlevel 3 goto replaceHostGYP
 if errorlevel 2 goto replaceHostGY
@@ -57,11 +58,11 @@ cls
 goto main
 
 :replaceHostG
-wget -q --no-check-certificate https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts -O "%SystemRoot%\System32\drivers\etc\hosts"
+wget -q --no-check-certificate https://coding.net/u/scaffrey/p/hosts/git/raw/master/hosts-files/hosts -O "%SystemRoot%\System32\drivers\etc\hosts"
 goto replaceSuccess
 
 :replaceHostGY
-wget -q --no-check-certificate https://raw.githubusercontent.com/racaljk/hosts/master/hosts -O "%SystemRoot%\System32\drivers\etc\hosts"
+wget -q --no-check-certificate https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts -O "%SystemRoot%\System32\drivers\etc\hosts"
 wget -q --no-check-certificate https://raw.githubusercontent.com/sy618/hosts/master/y -O hosts_ytb
 @echo. >> "%SystemRoot%\System32\drivers\etc\hosts"
 type hosts_ytb >> "%SystemRoot%\System32\drivers\etc\hosts"
@@ -86,13 +87,13 @@ cls
 color 2f
 echo.-------------------------------------------------------------------------
 echo.
-echo ¹§Ï²Äú£¬¸²¸Ç±¾µØhosts²¢Ë¢ÐÂ±¾µØDNS½âÎö»º´æ³É¹¦!
+echo æ­å–œæ‚¨ï¼Œè¦†ç›–æœ¬åœ°hostså¹¶åˆ·æ–°æœ¬åœ°DNSè§£æžç¼“å­˜æˆåŠŸ!
 echo.
-echo.¹È¸èÕâÐ©ÍøÕ¾¼ÇµÃÊ¹ÓÃhttps½øÐÐ¼ÓÃÜ·ÃÎÊ£¡
+echo.è°·æ­Œè¿™äº›ç½‘ç«™è®°å¾—ä½¿ç”¨httpsè¿›è¡ŒåŠ å¯†è®¿é—®ï¼
 echo.
-echo.¼´£ºhttps://www.google.com
+echo.å³ï¼šhttps://www.google.com
 echo.
-echo.»òÕß£ºhttps://www.google.com/ncr
+echo.æˆ–è€…ï¼šhttps://www.google.com/ncr
 echo.      https://www.google.com.hk/ncr
 echo.
 goto end
@@ -104,10 +105,10 @@ color 2f
 @echo # Localhost (DO NOT REMOVE!!!) > %SystemRoot%\System32\drivers\etc\hosts
 @echo 127.0.0.1	localhost >> %SystemRoot%\System32\drivers\etc\hosts
 @echo ::1	localhost ip6-localhost ip6-loopback >> %SystemRoot%\System32\drivers\etc\hosts
-echo ¹§Ï²Äú£¬hosts»Ö¸´³É¹¦!
+echo æ­å–œæ‚¨ï¼Œhostsæ¢å¤æˆåŠŸ!
 echo.
 goto end
 
 :end
-echo Çë°´ÈÎÒâ¼üÍË³ö¡£
+echo è¯·æŒ‰ä»»æ„é”®é€€å‡ºã€‚
 @Pause>nul

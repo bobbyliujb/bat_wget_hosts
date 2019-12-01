@@ -1,4 +1,4 @@
-chcp 936 &gt;nul
+﻿chcp 936 &gt;nul
 @echo off
 mode con lines=42 cols=80
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
@@ -27,11 +27,11 @@ color 2e
 echo.-------------------------------------------------------------------------
 echo.【请输入对应数字序号选择使用】
 echo.
-echo. 1.首次使用/使用普通hosts（Google+FB+Gmail...）
+echo. 1.首次使用镜像hosts初始化
 echo.
-echo. 2.使用增强hosts（Google+FB+Gmail... + Youtube）
+echo. 2.使用精简版hosts
 echo.
-echo. 3.使用霸王hosts（Google+FB+Gmail... + Youtube + GooglePlay）
+echo. 3.使用完整版hosts
 echo.
 echo. 4.恢复默认hosts
 echo.-------------------------------------------------------------------------
@@ -43,7 +43,7 @@ set /p select=请输入数字并按回车键确认:
 echo.
 if %select%==4 goto defaultHost
 if %select%==3 goto replaceHostSourceFull
-if %select%==2 goto replaceHostSoureeCompact
+if %select%==2 goto replaceHostSourceCompact
 if %select%==1 goto replaceHostFirstTimeFull
 cls
 echo 您输入有误，请重新选择。
@@ -54,7 +54,7 @@ goto main
 choice /c 1234 /n /m "请输入相应数字："
 if errorlevel 4 goto defaultHost
 if errorlevel 3 goto replaceHostSourceFull
-if errorlevel 2 goto replaceHostSoureeCompact
+if errorlevel 2 goto replaceHostSourceCompact
 if errorlevel 1 goto replaceHostFirstTimeFull
 cls
 goto main

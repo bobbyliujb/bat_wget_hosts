@@ -72,7 +72,7 @@ cls
 color 2f
 echo.-------------------------------------------------------------------------
 echo.
-echo. Congrats! You've updated the hosts file.
+echo. Congrats! You've updated the hosts file for accessing google.
 echo.
 echo.
 echo.
@@ -87,10 +87,10 @@ color 2f
 @echo # Localhost (DO NOT REMOVE!!!) > %SystemRoot%\System32\drivers\etc\hosts
 @echo 127.0.0.1	localhost >> %SystemRoot%\System32\drivers\etc\hosts
 @echo ::1	localhost ip6-localhost ip6-loopback >> %SystemRoot%\System32\drivers\etc\hosts
-echo 恭喜您，hosts恢复成功!
+echo Congrats! You've restore to default hosts.
 echo.
 goto end
 
 :end
-echo 请按任意键退出。
+echo press any button to exit.
 @Pause>nul

@@ -7,38 +7,27 @@ cd /d "%~dp0"
 :main
 cls
 color 2f
-echo        √√    √√  √√√      √√√√  √√√√√    √√√√
-echo          √    √  √      √  √      √  √  √  √  √      √
-echo          √    √  √      √  √              √      √
-echo          √√√√  √      √    √√          √        √√
-echo          √    √  √      √        √        √            √
-echo          √    √  √      √          √      √              √
-echo          √    √  √      √  √      √      √      √      √
-echo        √√    √√  √√√    √√√√      √√√    √√√√
-echo.-------------------------------------------------------------------------
-echo.如有360、电脑管家等安全软件提醒，请勾选信任允许和不再提醒！
-echo.
+echo. Please turn off the AntiVirus software such as 360.
+echo. 
 
-echo.警告：执行该命令 您的hosts将被自动替换覆盖！
-echo.如您原先的hosts有自己修改过的重要信息，请自行备份！
-echo.2017-09更新：增强/霸王型已失效，由于封锁加强，作者已停止更新！
+echo. Please back up your current hosts if needed.
 
 color 2e
 echo.-------------------------------------------------------------------------
-echo.【请输入对应数字序号选择使用】
+echo. Please choose from the following command
 echo.
-echo. 1.首次使用镜像hosts初始化
+echo. 1. First time use: initialize
 echo.
-echo. 2.使用精简版hosts
+echo. 2. Use compact hosts
 echo.
-echo. 3.使用完整版hosts
+echo. 3. Use complete hosts
 echo.
-echo. 4.恢复默认hosts
+echo. 4. Restore default hosts
 echo.-------------------------------------------------------------------------
 
 if exist "%SystemRoot%\System32\choice.exe" goto Win7Choice
 
-set /p select=请输入数字并按回车键确认:
+set /p select=Please choose:
 
 echo.
 if %select%==4 goto defaultHost
@@ -46,12 +35,12 @@ if %select%==3 goto replaceHostSourceFull
 if %select%==2 goto replaceHostSourceCompact
 if %select%==1 goto replaceHostFirstTimeFull
 cls
-echo 您输入有误，请重新选择。
+echo Please enter 1 2 3 or 4
 ping 127.0.1 -n "2">nul
 goto main
 
 :Win7Choice
-choice /c 1234 /n /m "请输入相应数字："
+choice /c 1234 /n /m "Please choose:"
 if errorlevel 4 goto defaultHost
 if errorlevel 3 goto replaceHostSourceFull
 if errorlevel 2 goto replaceHostSourceCompact
@@ -83,14 +72,11 @@ cls
 color 2f
 echo.-------------------------------------------------------------------------
 echo.
-echo 恭喜您，覆盖本地hosts并刷新本地DNS解析缓存成功!
+echo. Congrats! You've updated the hosts file.
 echo.
-echo.谷歌这些网站记得使用https进行加密访问！
 echo.
-echo.即：https://www.google.com
 echo.
-echo.或者：https://www.google.com/ncr
-echo.      https://www.google.com.hk/ncr
+echo. Please access google websites with https.
 echo.
 goto end
 
